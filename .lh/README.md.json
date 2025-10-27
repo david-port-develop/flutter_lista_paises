@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1761551930021,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1761552069517,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,13 +9,13 @@\n Las funciones principales incluyen:\n - Mostrar una lista completa de países.\n - Permitir la búsqueda y filtrado de países en tiempo real.\n - Ver detalles específicos de un país seleccionado (capital, población, bandera, etc.).\n-- Mostrar la diferencia horaria\n+- Posibles: ¿Mostrar la diferencia horaria?, ver la Wikipedia del país\n \n ## 2. ¿A quién va dirigida?\n \n-El público objetivo principal es el **desarrollador de Flutter en formación**. El proyecto está diseñado para ser un ejercicio práctico que integra:\n+El público objetivo principal es **gente que necesita saber algo sobre los países del mundo por los que viaja**. El proyecto está diseñado para ser un ejercicio práctico que integra:\n \n - Consumo de APIs REST.\n - Modelado de datos (JSON a objetos Dart).\n - Navegación entre pantallas.\n@@ -38,5 +38,7 @@\n - **Función:** Muestra información detallada de un país seleccionado.\n - **Componentes:**\n   - La bandera del país en grande.\n   - Datos clave como: Capital, Población, Continente, etc.\n+  - Diferencia horaria\n+  - Wikipedia del país\n \n"
                 }
             ],
             "date": 1761551930021,
