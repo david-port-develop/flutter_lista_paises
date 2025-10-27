@@ -1,0 +1,18 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1761551930021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1761551930021,
+            "name": "Commit-0",
+            "content": "# Explorador de Países - Proyecto Flutter\n\nEste es un proyecto de aprendizaje para un curso de Flutter, diseñado para aplicar y consolidar conocimientos en el desarrollo de aplicaciones móviles.\n\n## 1. ¿Qué hará la aplicación?\n\n**\"Explorador de Países\"** será una aplicación móvil que permitirá a los usuarios explorar información sobre todos los países del mundo. La aplicación obtendrá los datos de una API pública (`restcountries.com`) y los presentará en una interfaz limpia e intuitiva.\n\nLas funciones principales incluyen:\n- Mostrar una lista completa de países.\n- Permitir la búsqueda y filtrado de países en tiempo real.\n- Ver detalles específicos de un país seleccionado (capital, población, bandera, etc.).\n- Mostrar la diferencia horaria\n\n## 2. ¿A quién va dirigida?\n\nEl público objetivo principal es el **desarrollador de Flutter en formación**. El proyecto está diseñado para ser un ejercicio práctico que integra:\n\n- Consumo de APIs REST.\n- Modelado de datos (JSON a objetos Dart).\n- Navegación entre pantallas.\n- Manejo de estado (carga, éxito, error).\n- Creación de una interfaz de usuario dinámica y atractiva.\n\nPara el usuario final, es una herramienta de consulta rápida y educativa.\n\n## 3. Pantallas y Funciones\n\n### Pantalla 1: Lista de Países (Pantalla Principal)\n- **Función:** Muestra una lista de todos los países.\n- **Componentes:**\n  - Una barra de búsqueda para filtrar la lista.\n  - Un `ListView` que muestra la bandera y el nombre de cada país.\n  - Un indicador de carga (`CircularProgressIndicator`) mientras se obtienen los datos.\n  - Navegación a la pantalla de detalles al tocar un país.\n\n### Pantalla 2: Detalles del País\n- **Función:** Muestra información detallada de un país seleccionado.\n- **Componentes:**\n  - La bandera del país en grande.\n  - Datos clave como: Capital, Población, Continente, etc.\n\n"
+        }
+    ]
+}
